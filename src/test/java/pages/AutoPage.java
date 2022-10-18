@@ -15,7 +15,8 @@ public class AutoPage {
     public WebElement createEmail;
     @FindBy (xpath = "//*[@id='uniform-id_gender1']")
     public WebElement radioButton;
-
+    @FindBy (xpath = "(//*[text()='My account'])[1]")
+    public WebElement myAccountText;
 
 
 
